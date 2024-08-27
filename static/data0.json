@@ -1,11 +1,13 @@
 [
   {
-    "type": "line",
+    "type": "bar",
     "selectedVariables": [
-      "Exp"
+      "Total",
+      "Offshore",
+      "Onsite"
     ],
-    "containerId": "chart-container-2",
-    "sheet": "Tech Mahindra Info"
+    "containerId": "chart-container-0",
+    "sheet": "UPS Client Info"
   },
   {
     "type": "line",
@@ -16,5 +18,23 @@
     ],
     "containerId": "chart-container-1",
     "sheet": "UPS Client Info"
+  },
+  {
+    "type": "bar",
+    "selectedVariables": [
+      "CW ID",
+      "ADID",
+      "RSA"
+    ],
+    "containerId": "chart-container-2",
+    "sheet": "UPS Client Info"
+  },
+  {
+    "type": "line",
+    "selectedVariables": [
+      "Exp"
+    ],
+    "containerId": "chart-container-3",
+    "sheet": "Tech Mahindra Info"
   }
 ]
